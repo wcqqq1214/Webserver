@@ -1,5 +1,20 @@
 基于 sylar 框架的 Webserver
 
+开发环境:
+- Ubuntu 22.04 LTS
+- gcc 11.4.0
+- cmake
+
+项目路径:
+- bin: 二进制输出
+- build: 中间文件路径
+- cmake: cmake 函数文件夹
+- CMakeLists.txt: cmake 的定义文件
+- lib: 库的输出路径
+- Makefile
+- sylar: 源代码路径
+- tests: 测试代码路径
+
 ### 1. 日志模块
 支持流式日志风格写日志和格式化风格写日志, 支持日志格式自定义, 日志级别, 多日志分离等功能
 
